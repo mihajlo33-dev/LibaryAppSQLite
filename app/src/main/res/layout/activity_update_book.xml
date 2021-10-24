@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@color/purple_200"
+    android:orientation="vertical"
+    tools:context=".UpdateBookActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="50dp"
+        android:gravity="center_horizontal"
+        android:text="Libary"
+        android:textColor="@color/black"
+        android:textSize="35dp"
+        android:textStyle="italic" />
+
+    <EditText
+        android:id="@+id/book_name_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/edittextbackground"
+        android:hint="Book Name"
+        android:paddingLeft="20dp"
+        android:textAlignment="textStart"
+        android:textColorHint="@color/black"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/book_author_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/edittextbackground"
+        android:hint="Book Author"
+        android:paddingLeft="20dp"
+        android:textAlignment="textStart"
+        android:textColorHint="@color/black"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/book_price_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/edittextbackground"
+        android:hint="Price"
+        android:paddingLeft="20dp"
+        android:textAlignment="textStart"
+        android:textColorHint="@color/black"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/book_desc_2"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/edittextbackground"
+        android:hint="Description"
+        android:paddingLeft="20dp"
+        android:textAlignment="textStart"
+        android:textColorHint="@color/black"
+        android:textSize="25dp" />
+
+
+
+    <Button
+        android:id="@+id/update_book"
+        android:layout_width="173dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#9C27B0"
+        android:text="Update Book"
+        android:textColor="#D1C9C9"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/delete_book"
+        android:layout_width="173dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="#9C27B0"
+        android:text="Delete Book"
+        android:textColor="#F30C0C"
+        android:textStyle="bold" />
+
+
+
+</LinearLayout>
